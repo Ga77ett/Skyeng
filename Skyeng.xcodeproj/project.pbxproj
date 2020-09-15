@@ -14,6 +14,23 @@
 		DA27463B2510B5C500EE87D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA27463A2510B5C500EE87D0 /* Assets.xcassets */; };
 		DA27463E2510B5C500EE87D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA27463C2510B5C500EE87D0 /* LaunchScreen.storyboard */; };
 		DA2746492510B5C500EE87D0 /* SkyengTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2746482510B5C500EE87D0 /* SkyengTests.swift */; };
+		DA27465F2510B74500EE87D0 /* SKYSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2746592510B74500EE87D0 /* SKYSearchPresenter.swift */; };
+		DA2746602510B74500EE87D0 /* SKYSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27465A2510B74500EE87D0 /* SKYSearchRouter.swift */; };
+		DA2746612510B74500EE87D0 /* SKYSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27465B2510B74500EE87D0 /* SKYSearchViewController.swift */; };
+		DA2746622510B74500EE87D0 /* SKYSearchProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27465C2510B74500EE87D0 /* SKYSearchProtocols.swift */; };
+		DA2746632510B74500EE87D0 /* SKYSearchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27465D2510B74500EE87D0 /* SKYSearchAssembly.swift */; };
+		DA2746642510B74500EE87D0 /* SKYSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27465E2510B74500EE87D0 /* SKYSearchInteractor.swift */; };
+		DAFBEFF42510BB180026942F /* NetworkItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFED2510BB180026942F /* NetworkItems.swift */; };
+		DAFBEFF52510BB180026942F /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFEF2510BB180026942F /* AlertMessage.swift */; };
+		DAFBEFF62510BB180026942F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFF02510BB180026942F /* APIManager.swift */; };
+		DAFBEFF72510BB180026942F /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFF12510BB180026942F /* EndPointType.swift */; };
+		DAFBEFF82510BB180026942F /* APIManagerRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFF22510BB180026942F /* APIManagerRetrier.swift */; };
+		DAFBEFF92510BB180026942F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFF32510BB180026942F /* NetworkError.swift */; };
+		DAFBEFFB2510CC110026942F /* SKYSearchDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFFA2510CC110026942F /* SKYSearchDataManager.swift */; };
+		DAFBEFFE2510CF610026942F /* SKYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFFD2510CF610026942F /* SKYTableViewCell.swift */; };
+		DAFBF0002510CF880026942F /* SKYResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFFF2510CF880026942F /* SKYResultCell.swift */; };
+		DAFBF0032510CFCA0026942F /* SKYResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFBF0022510CFCA0026942F /* SKYResultCell.xib */; };
+		DAFBF0062510D2F40026942F /* SKYWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBF0052510D2F40026942F /* SKYWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +55,23 @@
 		DA2746442510B5C500EE87D0 /* SkyengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyengTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2746482510B5C500EE87D0 /* SkyengTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyengTests.swift; sourceTree = "<group>"; };
 		DA27464A2510B5C500EE87D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2746592510B74500EE87D0 /* SKYSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchPresenter.swift; sourceTree = "<group>"; };
+		DA27465A2510B74500EE87D0 /* SKYSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchRouter.swift; sourceTree = "<group>"; };
+		DA27465B2510B74500EE87D0 /* SKYSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchViewController.swift; sourceTree = "<group>"; };
+		DA27465C2510B74500EE87D0 /* SKYSearchProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchProtocols.swift; sourceTree = "<group>"; };
+		DA27465D2510B74500EE87D0 /* SKYSearchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchAssembly.swift; sourceTree = "<group>"; };
+		DA27465E2510B74500EE87D0 /* SKYSearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchInteractor.swift; sourceTree = "<group>"; };
+		DAFBEFED2510BB180026942F /* NetworkItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkItems.swift; sourceTree = "<group>"; };
+		DAFBEFEF2510BB180026942F /* AlertMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		DAFBEFF02510BB180026942F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DAFBEFF12510BB180026942F /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		DAFBEFF22510BB180026942F /* APIManagerRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerRetrier.swift; sourceTree = "<group>"; };
+		DAFBEFF32510BB180026942F /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		DAFBEFFA2510CC110026942F /* SKYSearchDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchDataManager.swift; sourceTree = "<group>"; };
+		DAFBEFFD2510CF610026942F /* SKYTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYTableViewCell.swift; sourceTree = "<group>"; };
+		DAFBEFFF2510CF880026942F /* SKYResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYResultCell.swift; sourceTree = "<group>"; };
+		DAFBF0022510CFCA0026942F /* SKYResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SKYResultCell.xib; sourceTree = "<group>"; };
+		DAFBF0052510D2F40026942F /* SKYWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWord.swift; sourceTree = "<group>"; };
 		EA59D0E2FED8215FBA719E2E /* Pods_Skyeng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skyeng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA2E0531C0C9E717F086EC9 /* Pods-Skyeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skyeng.release.xcconfig"; path = "Target Support Files/Pods-Skyeng/Pods-Skyeng.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +137,7 @@
 			children = (
 				DA2746542510B63600EE87D0 /* Application */,
 				DA2746552510B64200EE87D0 /* Presentation Layer */,
+				DAFBEFEB2510BB180026942F /* Network */,
 				DA2746532510B62700EE87D0 /* Supporting Files */,
 			);
 			path = Skyeng;
@@ -137,6 +172,8 @@
 		DA2746552510B64200EE87D0 /* Presentation Layer */ = {
 			isa = PBXGroup;
 			children = (
+				DAFBEFFC2510CF4A0026942F /* Cells */,
+				DA2746582510B72800EE87D0 /* Modules */,
 				DA2746562510B65000EE87D0 /* Storyboards */,
 				DA2746572510B65A00EE87D0 /* Assets */,
 			);
@@ -158,6 +195,76 @@
 				DA27463A2510B5C500EE87D0 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		DA2746582510B72800EE87D0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DA27465D2510B74500EE87D0 /* SKYSearchAssembly.swift */,
+				DA27465C2510B74500EE87D0 /* SKYSearchProtocols.swift */,
+				DAFBEFFA2510CC110026942F /* SKYSearchDataManager.swift */,
+				DA27465B2510B74500EE87D0 /* SKYSearchViewController.swift */,
+				DA2746592510B74500EE87D0 /* SKYSearchPresenter.swift */,
+				DA27465E2510B74500EE87D0 /* SKYSearchInteractor.swift */,
+				DA27465A2510B74500EE87D0 /* SKYSearchRouter.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DAFBEFEB2510BB180026942F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DAFBF0042510D2E10026942F /* Response */,
+				DAFBEFEC2510BB180026942F /* Requests */,
+				DAFBEFEE2510BB180026942F /* Base */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DAFBEFEC2510BB180026942F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				DAFBEFED2510BB180026942F /* NetworkItems.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		DAFBEFEE2510BB180026942F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DAFBEFEF2510BB180026942F /* AlertMessage.swift */,
+				DAFBEFF02510BB180026942F /* APIManager.swift */,
+				DAFBEFF12510BB180026942F /* EndPointType.swift */,
+				DAFBEFF22510BB180026942F /* APIManagerRetrier.swift */,
+				DAFBEFF32510BB180026942F /* NetworkError.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DAFBEFFC2510CF4A0026942F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DAFBF0012510CF910026942F /* ResultCell */,
+				DAFBEFFD2510CF610026942F /* SKYTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DAFBF0012510CF910026942F /* ResultCell */ = {
+			isa = PBXGroup;
+			children = (
+				DAFBEFFF2510CF880026942F /* SKYResultCell.swift */,
+				DAFBF0022510CFCA0026942F /* SKYResultCell.xib */,
+			);
+			path = ResultCell;
+			sourceTree = "<group>";
+		};
+		DAFBF0042510D2E10026942F /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				DAFBF0052510D2F40026942F /* SKYWord.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFBF0032510CFCA0026942F /* SKYResultCell.xib in Resources */,
 				DA27463E2510B5C500EE87D0 /* LaunchScreen.storyboard in Resources */,
 				DA27463B2510B5C500EE87D0 /* Assets.xcassets in Resources */,
 				DA2746392510B5C400EE87D0 /* Main.storyboard in Resources */,
@@ -306,8 +414,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFBF0002510CF880026942F /* SKYResultCell.swift in Sources */,
 				DA2746322510B5C400EE87D0 /* AppDelegate.swift in Sources */,
+				DAFBEFFB2510CC110026942F /* SKYSearchDataManager.swift in Sources */,
+				DAFBF0062510D2F40026942F /* SKYWord.swift in Sources */,
+				DAFBEFF92510BB180026942F /* NetworkError.swift in Sources */,
 				DA2746342510B5C400EE87D0 /* SceneDelegate.swift in Sources */,
+				DA2746632510B74500EE87D0 /* SKYSearchAssembly.swift in Sources */,
+				DA2746602510B74500EE87D0 /* SKYSearchRouter.swift in Sources */,
+				DAFBEFF62510BB180026942F /* APIManager.swift in Sources */,
+				DA2746642510B74500EE87D0 /* SKYSearchInteractor.swift in Sources */,
+				DA27465F2510B74500EE87D0 /* SKYSearchPresenter.swift in Sources */,
+				DAFBEFF52510BB180026942F /* AlertMessage.swift in Sources */,
+				DAFBEFF72510BB180026942F /* EndPointType.swift in Sources */,
+				DAFBEFFE2510CF610026942F /* SKYTableViewCell.swift in Sources */,
+				DAFBEFF42510BB180026942F /* NetworkItems.swift in Sources */,
+				DAFBEFF82510BB180026942F /* APIManagerRetrier.swift in Sources */,
+				DA2746612510B74500EE87D0 /* SKYSearchViewController.swift in Sources */,
+				DA2746622510B74500EE87D0 /* SKYSearchProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,12 +593,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76PAWKG5GV;
-				INFOPLIST_FILE = Skyeng/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Skyeng/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.shalankin.Skyeng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -488,12 +614,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76PAWKG5GV;
-				INFOPLIST_FILE = Skyeng/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Skyeng/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.shalankin.Skyeng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
