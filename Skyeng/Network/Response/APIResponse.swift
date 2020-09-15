@@ -17,7 +17,7 @@ enum APIResponse {
 
         struct Meaning: Codable {
             let translation: Translation
-            let imageUrl: String
+            let previewUrl: String
             
             struct Translation: Codable {
                 let text: String

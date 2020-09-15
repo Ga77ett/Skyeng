@@ -90,6 +90,11 @@ class SKYSearchViewController: UITableViewController, SKYSearchViewInput, UISear
         searchBar.text = ""
         searchBar.setShowsCancelButton(false, animated: true)
         searchBar.resignFirstResponder()
+        
+        DispatchQueue.main.async {
+            self.dataManager?.removeData()
+            self.tableView.reloadData()
+        }
     }
     
     func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
@@ -107,10 +112,11 @@ class SKYSearchViewController: UITableViewController, SKYSearchViewInput, UISear
             }
 
         } else {
-            dataManager?.removeData()
+            DispatchQueue.main.async {
+                self.dataManager?.removeData()
+                self.tableView.reloadData()
+            }
         }
-        
-        tableView.reloadData()
     }
     
     

@@ -31,7 +31,7 @@ class SKYWordDataManager: NSObject, UITableViewDelegate, UITableViewDataSource {
             as! SKYMeaningCell
             
         guard let meaning = word?.meanings[indexPath.row] else { return cell }
-        cell.configure(urlString: meaning.imageUrl, text: meaning.translation.text)
+        cell.configure(urlString: meaning.previewUrl, text: meaning.translation.text)
         
         return cell
     }
