@@ -8,4 +8,5 @@ target 'Skyeng' do
     project 'Skyeng'
 
     pod 'Alamofire', '~> 5.2'
+    pod 'SDWebImage'
 end

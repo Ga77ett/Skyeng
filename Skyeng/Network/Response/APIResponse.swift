@@ -1,5 +1,5 @@
 //
-//  SKYWord.swift
+//  APIResponse.swift
 //  Skyeng
 //
 //  Created by Kirill Shalankin on 15.09.2020.
@@ -17,6 +17,7 @@ enum APIResponse {
 
         struct Meaning: Codable {
             let translation: Translation
+            let imageUrl: String
             
             struct Translation: Codable {
                 let text: String

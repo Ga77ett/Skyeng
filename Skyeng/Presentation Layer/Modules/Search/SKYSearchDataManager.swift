@@ -12,7 +12,7 @@ class SKYSearchDataManager: NSObject, UITableViewDelegate, UITableViewDataSource
     
     // MARK: - Public vars & lets
     
-    var view: SKYSearchViewController?
+    weak var view: SKYSearchViewController?
     
     
     // MARK: - Private vars & lets
@@ -56,7 +56,7 @@ class SKYSearchDataManager: NSObject, UITableViewDelegate, UITableViewDataSource
     // MARK: - UITableViewDelegate
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        view?.output?.wordDidSelected(word: data[indexPath.row])
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {

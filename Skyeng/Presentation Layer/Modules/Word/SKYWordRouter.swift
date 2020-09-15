@@ -1,5 +1,5 @@
 //
-//  SKYSearchRouter.swift
+//  SKYWordRouter.swift
 //  Skyeng
 //
 //  Created Kirill Shalankin on 15.09.2020.
@@ -10,7 +10,7 @@
 
 import UIKit
 
-class SKYSearchRouter: NSObject,  SKYSearchRouterInput {
+class SKYWordRouter: NSObject,  SKYWordRouterInput {
     
     // MARK: - Public vars & lets
     

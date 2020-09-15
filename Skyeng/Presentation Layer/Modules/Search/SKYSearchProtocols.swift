@@ -19,6 +19,7 @@ protocol SKYSearchViewInput: class {
 protocol SKYSearchViewOutput: class {
     func viewDidLoad()
     func textDidChange(text: String)
+    func wordDidSelected(word: APIResponse.SKYWord)
 }
 
 
@@ -43,5 +44,5 @@ protocol SKYSearchInteractorOutput: class {
 // MARK: Router -
 
 protocol SKYSearchRouterInput: class {
-
+    func showWord(word: APIResponse.SKYWord)
 }

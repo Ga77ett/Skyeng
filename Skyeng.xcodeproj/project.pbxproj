@@ -20,6 +20,15 @@
 		DA2746622510B74500EE87D0 /* SKYSearchProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27465C2510B74500EE87D0 /* SKYSearchProtocols.swift */; };
 		DA2746632510B74500EE87D0 /* SKYSearchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27465D2510B74500EE87D0 /* SKYSearchAssembly.swift */; };
 		DA2746642510B74500EE87D0 /* SKYSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27465E2510B74500EE87D0 /* SKYSearchInteractor.swift */; };
+		DA5241052510DFE8006C77AD /* SKYWordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5240FF2510DFE8006C77AD /* SKYWordPresenter.swift */; };
+		DA5241062510DFE8006C77AD /* SKYWordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5241002510DFE8006C77AD /* SKYWordRouter.swift */; };
+		DA5241072510DFE8006C77AD /* SKYWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5241012510DFE8006C77AD /* SKYWordViewController.swift */; };
+		DA5241082510DFE8006C77AD /* SKYWordProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5241022510DFE8006C77AD /* SKYWordProtocols.swift */; };
+		DA5241092510DFE8006C77AD /* SKYWordAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5241032510DFE8006C77AD /* SKYWordAssembly.swift */; };
+		DA52410A2510DFE8006C77AD /* SKYWordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5241042510DFE8006C77AD /* SKYWordInteractor.swift */; };
+		DA52410E2510E367006C77AD /* SKYWordDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52410D2510E367006C77AD /* SKYWordDataManager.swift */; };
+		DA5241172510E5DC006C77AD /* SKYMeaningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5241152510E5DC006C77AD /* SKYMeaningCell.swift */; };
+		DA5241182510E5DC006C77AD /* SKYMeaningCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5241162510E5DC006C77AD /* SKYMeaningCell.xib */; };
 		DAFBEFF42510BB180026942F /* NetworkItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFED2510BB180026942F /* NetworkItems.swift */; };
 		DAFBEFF52510BB180026942F /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFEF2510BB180026942F /* AlertMessage.swift */; };
 		DAFBEFF62510BB180026942F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFF02510BB180026942F /* APIManager.swift */; };
@@ -30,7 +39,7 @@
 		DAFBEFFE2510CF610026942F /* SKYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFFD2510CF610026942F /* SKYTableViewCell.swift */; };
 		DAFBF0002510CF880026942F /* SKYResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFFF2510CF880026942F /* SKYResultCell.swift */; };
 		DAFBF0032510CFCA0026942F /* SKYResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFBF0022510CFCA0026942F /* SKYResultCell.xib */; };
-		DAFBF0062510D2F40026942F /* SKYWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBF0052510D2F40026942F /* SKYWord.swift */; };
+		DAFBF0062510D2F40026942F /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBF0052510D2F40026942F /* APIResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +70,15 @@
 		DA27465C2510B74500EE87D0 /* SKYSearchProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchProtocols.swift; sourceTree = "<group>"; };
 		DA27465D2510B74500EE87D0 /* SKYSearchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchAssembly.swift; sourceTree = "<group>"; };
 		DA27465E2510B74500EE87D0 /* SKYSearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYSearchInteractor.swift; sourceTree = "<group>"; };
+		DA5240FF2510DFE8006C77AD /* SKYWordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWordPresenter.swift; sourceTree = "<group>"; };
+		DA5241002510DFE8006C77AD /* SKYWordRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWordRouter.swift; sourceTree = "<group>"; };
+		DA5241012510DFE8006C77AD /* SKYWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWordViewController.swift; sourceTree = "<group>"; };
+		DA5241022510DFE8006C77AD /* SKYWordProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWordProtocols.swift; sourceTree = "<group>"; };
+		DA5241032510DFE8006C77AD /* SKYWordAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWordAssembly.swift; sourceTree = "<group>"; };
+		DA5241042510DFE8006C77AD /* SKYWordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWordInteractor.swift; sourceTree = "<group>"; };
+		DA52410D2510E367006C77AD /* SKYWordDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWordDataManager.swift; sourceTree = "<group>"; };
+		DA5241152510E5DC006C77AD /* SKYMeaningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYMeaningCell.swift; sourceTree = "<group>"; };
+		DA5241162510E5DC006C77AD /* SKYMeaningCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SKYMeaningCell.xib; sourceTree = "<group>"; };
 		DAFBEFED2510BB180026942F /* NetworkItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkItems.swift; sourceTree = "<group>"; };
 		DAFBEFEF2510BB180026942F /* AlertMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
 		DAFBEFF02510BB180026942F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
@@ -71,7 +89,7 @@
 		DAFBEFFD2510CF610026942F /* SKYTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYTableViewCell.swift; sourceTree = "<group>"; };
 		DAFBEFFF2510CF880026942F /* SKYResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYResultCell.swift; sourceTree = "<group>"; };
 		DAFBF0022510CFCA0026942F /* SKYResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SKYResultCell.xib; sourceTree = "<group>"; };
-		DAFBF0052510D2F40026942F /* SKYWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWord.swift; sourceTree = "<group>"; };
+		DAFBF0052510D2F40026942F /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		EA59D0E2FED8215FBA719E2E /* Pods_Skyeng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skyeng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA2E0531C0C9E717F086EC9 /* Pods-Skyeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skyeng.release.xcconfig"; path = "Target Support Files/Pods-Skyeng/Pods-Skyeng.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,6 +218,15 @@
 		DA2746582510B72800EE87D0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				DA5240FE2510DFCD006C77AD /* Search */,
+				DA52410C2510DFF2006C77AD /* Word */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DA5240FE2510DFCD006C77AD /* Search */ = {
+			isa = PBXGroup;
+			children = (
 				DA27465D2510B74500EE87D0 /* SKYSearchAssembly.swift */,
 				DA27465C2510B74500EE87D0 /* SKYSearchProtocols.swift */,
 				DAFBEFFA2510CC110026942F /* SKYSearchDataManager.swift */,
@@ -208,7 +235,30 @@
 				DA27465E2510B74500EE87D0 /* SKYSearchInteractor.swift */,
 				DA27465A2510B74500EE87D0 /* SKYSearchRouter.swift */,
 			);
-			path = Modules;
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DA52410C2510DFF2006C77AD /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				DA5241032510DFE8006C77AD /* SKYWordAssembly.swift */,
+				DA5241022510DFE8006C77AD /* SKYWordProtocols.swift */,
+				DA52410D2510E367006C77AD /* SKYWordDataManager.swift */,
+				DA5241012510DFE8006C77AD /* SKYWordViewController.swift */,
+				DA5240FF2510DFE8006C77AD /* SKYWordPresenter.swift */,
+				DA5241042510DFE8006C77AD /* SKYWordInteractor.swift */,
+				DA5241002510DFE8006C77AD /* SKYWordRouter.swift */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		DA5241142510E5C6006C77AD /* MeaningCell */ = {
+			isa = PBXGroup;
+			children = (
+				DA5241152510E5DC006C77AD /* SKYMeaningCell.swift */,
+				DA5241162510E5DC006C77AD /* SKYMeaningCell.xib */,
+			);
+			path = MeaningCell;
 			sourceTree = "<group>";
 		};
 		DAFBEFEB2510BB180026942F /* Network */ = {
@@ -244,6 +294,7 @@
 		DAFBEFFC2510CF4A0026942F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				DA5241142510E5C6006C77AD /* MeaningCell */,
 				DAFBF0012510CF910026942F /* ResultCell */,
 				DAFBEFFD2510CF610026942F /* SKYTableViewCell.swift */,
 			);
@@ -262,7 +313,7 @@
 		DAFBF0042510D2E10026942F /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				DAFBF0052510D2F40026942F /* SKYWord.swift */,
+				DAFBF0052510D2F40026942F /* APIResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -352,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAFBF0032510CFCA0026942F /* SKYResultCell.xib in Resources */,
+				DA5241182510E5DC006C77AD /* SKYMeaningCell.xib in Resources */,
 				DA27463E2510B5C500EE87D0 /* LaunchScreen.storyboard in Resources */,
 				DA27463B2510B5C500EE87D0 /* Assets.xcassets in Resources */,
 				DA2746392510B5C400EE87D0 /* Main.storyboard in Resources */,
@@ -417,19 +469,27 @@
 				DAFBF0002510CF880026942F /* SKYResultCell.swift in Sources */,
 				DA2746322510B5C400EE87D0 /* AppDelegate.swift in Sources */,
 				DAFBEFFB2510CC110026942F /* SKYSearchDataManager.swift in Sources */,
-				DAFBF0062510D2F40026942F /* SKYWord.swift in Sources */,
+				DA5241082510DFE8006C77AD /* SKYWordProtocols.swift in Sources */,
+				DAFBF0062510D2F40026942F /* APIResponse.swift in Sources */,
 				DAFBEFF92510BB180026942F /* NetworkError.swift in Sources */,
+				DA5241172510E5DC006C77AD /* SKYMeaningCell.swift in Sources */,
 				DA2746342510B5C400EE87D0 /* SceneDelegate.swift in Sources */,
+				DA52410E2510E367006C77AD /* SKYWordDataManager.swift in Sources */,
 				DA2746632510B74500EE87D0 /* SKYSearchAssembly.swift in Sources */,
 				DA2746602510B74500EE87D0 /* SKYSearchRouter.swift in Sources */,
 				DAFBEFF62510BB180026942F /* APIManager.swift in Sources */,
 				DA2746642510B74500EE87D0 /* SKYSearchInteractor.swift in Sources */,
 				DA27465F2510B74500EE87D0 /* SKYSearchPresenter.swift in Sources */,
 				DAFBEFF52510BB180026942F /* AlertMessage.swift in Sources */,
+				DA5241072510DFE8006C77AD /* SKYWordViewController.swift in Sources */,
+				DA5241052510DFE8006C77AD /* SKYWordPresenter.swift in Sources */,
 				DAFBEFF72510BB180026942F /* EndPointType.swift in Sources */,
+				DA52410A2510DFE8006C77AD /* SKYWordInteractor.swift in Sources */,
+				DA5241062510DFE8006C77AD /* SKYWordRouter.swift in Sources */,
 				DAFBEFFE2510CF610026942F /* SKYTableViewCell.swift in Sources */,
 				DAFBEFF42510BB180026942F /* NetworkItems.swift in Sources */,
 				DAFBEFF82510BB180026942F /* APIManagerRetrier.swift in Sources */,
+				DA5241092510DFE8006C77AD /* SKYWordAssembly.swift in Sources */,
 				DA2746612510B74500EE87D0 /* SKYSearchViewController.swift in Sources */,
 				DA2746622510B74500EE87D0 /* SKYSearchProtocols.swift in Sources */,
 			);

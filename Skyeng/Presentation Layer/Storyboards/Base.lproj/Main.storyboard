@@ -39,5 +39,20 @@
             </objects>
             <point key="canvasLocation" x="949" y="119"/>
         </scene>
+        <!--Word View Controller-->
+        <scene sceneID="VtJ-02-WfY">
+            <objects>
+                <tableViewController storyboardIdentifier="SKYWordViewController" id="YXE-V0-1ko" customClass="SKYWordViewController" customModule="Skyeng" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="z3Y-hp-9iD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <inset key="separatorInset" minX="10000" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dnc-yf-Sm5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1780" y="119"/>
+        </scene>
     </scenes>
 </document>

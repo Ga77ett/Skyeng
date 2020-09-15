@@ -32,6 +32,10 @@ class SKYSearchPresenter: NSObject, SKYSearchModuleInput, SKYSearchViewOutput, S
         interactor?.doRequest(text: text)
     }
     
+    func wordDidSelected(word: APIResponse.SKYWord) {
+        router?.showWord(word: word)
+    }
+    
     
     // MARK: - SKYSearchInteractorOutput
     
