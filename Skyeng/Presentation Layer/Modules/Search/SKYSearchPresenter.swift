@@ -42,5 +42,9 @@ class SKYSearchPresenter: NSObject, SKYSearchModuleInput, SKYSearchViewOutput, S
     func response(data: [APIResponse.SKYWord]) {
         view?.configure(data: data)
     }
+    
+    func error(error: String) {
+        // Вывод текста ошибки
+    }
 
 }

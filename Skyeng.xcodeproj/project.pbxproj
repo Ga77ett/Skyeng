@@ -29,6 +29,7 @@
 		DA52410E2510E367006C77AD /* SKYWordDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52410D2510E367006C77AD /* SKYWordDataManager.swift */; };
 		DA5241172510E5DC006C77AD /* SKYMeaningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5241152510E5DC006C77AD /* SKYMeaningCell.swift */; };
 		DA5241182510E5DC006C77AD /* SKYMeaningCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5241162510E5DC006C77AD /* SKYMeaningCell.xib */; };
+		DA9EAEA82510F6580065E9DE /* SKYRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EAEA72510F6580065E9DE /* SKYRequestTest.swift */; };
 		DAFBEFF42510BB180026942F /* NetworkItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFED2510BB180026942F /* NetworkItems.swift */; };
 		DAFBEFF52510BB180026942F /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFEF2510BB180026942F /* AlertMessage.swift */; };
 		DAFBEFF62510BB180026942F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBEFF02510BB180026942F /* APIManager.swift */; };
@@ -79,6 +80,7 @@
 		DA52410D2510E367006C77AD /* SKYWordDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYWordDataManager.swift; sourceTree = "<group>"; };
 		DA5241152510E5DC006C77AD /* SKYMeaningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYMeaningCell.swift; sourceTree = "<group>"; };
 		DA5241162510E5DC006C77AD /* SKYMeaningCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SKYMeaningCell.xib; sourceTree = "<group>"; };
+		DA9EAEA72510F6580065E9DE /* SKYRequestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKYRequestTest.swift; sourceTree = "<group>"; };
 		DAFBEFED2510BB180026942F /* NetworkItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkItems.swift; sourceTree = "<group>"; };
 		DAFBEFEF2510BB180026942F /* AlertMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
 		DAFBEFF02510BB180026942F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			children = (
 				DA2746482510B5C500EE87D0 /* SkyengTests.swift */,
 				DA27464A2510B5C500EE87D0 /* Info.plist */,
+				DA9EAEA72510F6580065E9DE /* SKYRequestTest.swift */,
 			);
 			path = SkyengTests;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2746492510B5C500EE87D0 /* SkyengTests.swift in Sources */,
+				DA9EAEA82510F6580065E9DE /* SKYRequestTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

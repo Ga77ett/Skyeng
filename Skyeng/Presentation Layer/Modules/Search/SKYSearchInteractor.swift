@@ -36,7 +36,7 @@ class SKYSearchInteractor: NSObject, SKYSearchInteractorInput {
                     self.output?.response(data: words)
                     break
                 case .failure(let message):
-                    print(message.body)
+                    self.output?.error(error: message.localizedDescription)
                     break
                 }
             }

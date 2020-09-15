@@ -38,6 +38,7 @@ protocol SKYSearchInteractorInput: class {
 
 protocol SKYSearchInteractorOutput: class {
     func response(data: [APIResponse.SKYWord])
+    func error(error: String)
 }
 
 
