@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051035491EBF3B150FDCCD1B /* Pods_Skyeng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA59D0E2FED8215FBA719E2E /* Pods_Skyeng.framework */; };
 		DA2746322510B5C400EE87D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2746312510B5C400EE87D0 /* AppDelegate.swift */; };
 		DA2746342510B5C400EE87D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2746332510B5C400EE87D0 /* SceneDelegate.swift */; };
-		DA2746362510B5C400EE87D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2746352510B5C400EE87D0 /* ViewController.swift */; };
 		DA2746392510B5C400EE87D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2746372510B5C400EE87D0 /* Main.storyboard */; };
 		DA27463B2510B5C500EE87D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA27463A2510B5C500EE87D0 /* Assets.xcassets */; };
 		DA27463E2510B5C500EE87D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA27463C2510B5C500EE87D0 /* LaunchScreen.storyboard */; };
@@ -27,10 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA001362BD7016EC44825BCD /* Pods-Skyeng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skyeng.debug.xcconfig"; path = "Target Support Files/Pods-Skyeng/Pods-Skyeng.debug.xcconfig"; sourceTree = "<group>"; };
 		DA27462E2510B5C400EE87D0 /* Skyeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skyeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2746312510B5C400EE87D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA2746332510B5C400EE87D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA2746352510B5C400EE87D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA2746382510B5C400EE87D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA27463A2510B5C500EE87D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA27463D2510B5C500EE87D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +38,8 @@
 		DA2746442510B5C500EE87D0 /* SkyengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyengTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2746482510B5C500EE87D0 /* SkyengTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyengTests.swift; sourceTree = "<group>"; };
 		DA27464A2510B5C500EE87D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA59D0E2FED8215FBA719E2E /* Pods_Skyeng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skyeng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA2E0531C0C9E717F086EC9 /* Pods-Skyeng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skyeng.release.xcconfig"; path = "Target Support Files/Pods-Skyeng/Pods-Skyeng.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051035491EBF3B150FDCCD1B /* Pods_Skyeng.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		258719C45157D322A76DE4E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA001362BD7016EC44825BCD /* Pods-Skyeng.debug.xcconfig */,
+				EEA2E0531C0C9E717F086EC9 /* Pods-Skyeng.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89AC8E024AE7C2F4A9D068AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA59D0E2FED8215FBA719E2E /* Pods_Skyeng.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DA2746252510B5C400EE87D0 = {
 			isa = PBXGroup;
 			children = (
 				DA2746302510B5C400EE87D0 /* Skyeng */,
 				DA2746472510B5C500EE87D0 /* SkyengTests */,
 				DA27462F2510B5C400EE87D0 /* Products */,
+				258719C45157D322A76DE4E4 /* Pods */,
+				89AC8E024AE7C2F4A9D068AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +101,9 @@
 		DA2746302510B5C400EE87D0 /* Skyeng */ = {
 			isa = PBXGroup;
 			children = (
-				DA2746312510B5C400EE87D0 /* AppDelegate.swift */,
-				DA2746332510B5C400EE87D0 /* SceneDelegate.swift */,
-				DA2746352510B5C400EE87D0 /* ViewController.swift */,
-				DA2746372510B5C400EE87D0 /* Main.storyboard */,
-				DA27463A2510B5C500EE87D0 /* Assets.xcassets */,
-				DA27463C2510B5C500EE87D0 /* LaunchScreen.storyboard */,
-				DA27463F2510B5C500EE87D0 /* Info.plist */,
+				DA2746542510B63600EE87D0 /* Application */,
+				DA2746552510B64200EE87D0 /* Presentation Layer */,
+				DA2746532510B62700EE87D0 /* Supporting Files */,
 			);
 			path = Skyeng;
 			sourceTree = "<group>";
@@ -99,6 +117,49 @@
 			path = SkyengTests;
 			sourceTree = "<group>";
 		};
+		DA2746532510B62700EE87D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA27463F2510B5C500EE87D0 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA2746542510B63600EE87D0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DA2746312510B5C400EE87D0 /* AppDelegate.swift */,
+				DA2746332510B5C400EE87D0 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DA2746552510B64200EE87D0 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				DA2746562510B65000EE87D0 /* Storyboards */,
+				DA2746572510B65A00EE87D0 /* Assets */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		DA2746562510B65000EE87D0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DA27463C2510B5C500EE87D0 /* LaunchScreen.storyboard */,
+				DA2746372510B5C400EE87D0 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DA2746572510B65A00EE87D0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DA27463A2510B5C500EE87D0 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA27464D2510B5C500EE87D0 /* Build configuration list for PBXNativeTarget "Skyeng" */;
 			buildPhases = (
+				90AD471F8D6B83739AFD8AF2 /* [CP] Check Pods Manifest.lock */,
 				DA27462A2510B5C400EE87D0 /* Sources */,
 				DA27462B2510B5C400EE87D0 /* Frameworks */,
 				DA27462C2510B5C400EE87D0 /* Resources */,
+				E54EEEC76BBE7121BA311F22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,6 +206,7 @@
 		DA2746262510B5C400EE87D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SKY;
 				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Kirill Shalankin";
@@ -195,12 +259,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90AD471F8D6B83739AFD8AF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skyeng-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54EEEC76BBE7121BA311F22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skyeng/Pods-Skyeng-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skyeng/Pods-Skyeng-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skyeng/Pods-Skyeng-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA27462A2510B5C400EE87D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2746362510B5C400EE87D0 /* ViewController.swift in Sources */,
 				DA2746322510B5C400EE87D0 /* AppDelegate.swift in Sources */,
 				DA2746342510B5C400EE87D0 /* SceneDelegate.swift in Sources */,
 			);
@@ -360,6 +465,7 @@
 		};
 		DA27464E2510B5C500EE87D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA001362BD7016EC44825BCD /* Pods-Skyeng.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,12 +478,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.shalankin.Skyeng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DA27464F2510B5C500EE87D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA2E0531C0C9E717F086EC9 /* Pods-Skyeng.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,7 +497,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.shalankin.Skyeng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
